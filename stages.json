@@ -1,0 +1,48 @@
+[
+   {
+      "events": [
+         {
+            "event": "Celebrations",
+            "style": "team",
+            "rating": 3
+         }
+      ]
+   },
+   {
+      "events": [
+         {
+            "event": "Shooting",
+            "style": "skill",
+            "rating": 5
+         },
+         {
+            "event": "Categories",
+            "style": "smart",
+            "rating": 2
+         }
+      ]
+   },
+   {
+      "events": [
+         {
+            "event": "Vortex",
+            "style": "skill",
+            "rating": 5
+         },
+         {
+            "event": "Wits and Wagers",
+            "style": "smart",
+            "rating": 3
+         }
+      ]
+   },
+   {
+      "events": [
+         {
+            "event": "Boules",
+            "style": "skill",
+            "rating": 3
+         }
+      ]
+   }
+]

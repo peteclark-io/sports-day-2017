@@ -1,0 +1,102 @@
+{
+   "A Team": {
+      "name": "A Team",
+      "players": [
+         {
+            "name": "Tinders",
+            "skill": 10,
+            "smarts": 3
+         },
+         {
+            "name": "Jan",
+            "skill": 7,
+            "smarts": 5
+         },
+         {
+            "name": "Emily",
+            "skill": 4,
+            "smarts": 4
+         },
+         {
+            "name": "Ben",
+            "skill": 6,
+            "smarts": 6
+         }
+      ]
+   },
+   "B Team": {
+      "name": "B Team",
+      "players": [
+         {
+            "name": "Daniel",
+            "skill": 9,
+            "smarts": 4
+         },
+         {
+            "name": "Beth",
+            "skill": 3,
+            "smarts": 8
+         },
+         {
+            "name": "Kag",
+            "skill": 1,
+            "smarts": 9
+         },
+         {
+            "name": "Al",
+            "skill": 7,
+            "smarts": 2
+         }
+      ]
+   },
+   "C Team": {
+      "name": "C Team",
+      "players": [
+         {
+            "name": "Jon",
+            "skill": 8,
+            "smarts": 6
+         },
+         {
+            "name": "Loz",
+            "skill": 7,
+            "smarts": 3
+         },
+         {
+            "name": "Leo",
+            "skill": 5,
+            "smarts": 9
+         },
+         {
+            "name": "Lonners",
+            "skill": 3,
+            "smarts": 2
+         }
+      ]
+   },
+   "D Team": {
+      "name": "D Team",
+      "players": [
+         {
+            "name": "Adam",
+            "skill": 7,
+            "smarts": 8
+         },
+         {
+            "name": "Laura",
+            "skill": 3,
+            "smarts": 7
+         },
+         {
+            "name": "Becky",
+            "skill": 10,
+            "smarts": 10
+         },
+         {
+            "name": "Ruffle",
+            "skill": 7,
+            "smarts": 3
+         }
+      ]
+   }
+}
