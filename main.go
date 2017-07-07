@@ -34,9 +34,17 @@ func main() {
 			return err
 		}
 
-		overall := newScores()
+		overall := newScores(teams)
 
 		for _, s := range stages {
+			if s.Type == teamStage {
+				for _, e := range s.Events {
+					results := e.PlayTeamEvent(teams)
+					overall.TeamStageResults(e, 0, results)
+				}
+				continue
+			}
+
 			allSelections := make([]eventSelection, 0)
 			for _, t := range teams {
 				allSelections = append(allSelections, t.SelectPlayers(s.Events...)...)

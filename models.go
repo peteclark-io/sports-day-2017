@@ -28,6 +28,7 @@ type eventSelection struct {
 }
 
 type stage struct {
+	Type   string  `json:"type"`
 	Events []event `json:"events"`
 }
 
@@ -36,6 +37,13 @@ type scores struct {
 	YellowJersey  map[Player]int `json:"yellowJersey"`
 	PolkaDotersey map[Player]int `json:"polkaDotersey"`
 	Teams         map[string]int `json:"teams"`
+
+	teamsData map[string]team
+}
+
+type score struct {
+	Team  string `json:"team"`
+	Score int    `json:"score"`
 }
 
 type playerScore struct {
@@ -43,7 +51,13 @@ type playerScore struct {
 	Score  int    `json:"score"`
 }
 
-type byScore []playerScore
+type byPlayerScore []playerScore
+
+func (a byPlayerScore) Len() int           { return len(a) }
+func (a byPlayerScore) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
+func (a byPlayerScore) Less(i, j int) bool { return a[i].Score < a[j].Score }
+
+type byScore []score
 
 func (a byScore) Len() int           { return len(a) }
 func (a byScore) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }

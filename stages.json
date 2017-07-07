@@ -1,5 +1,6 @@
 [
    {
+      "type": "team",
       "events": [
          {
             "event": "Celebrations",
@@ -9,6 +10,7 @@
       ]
    },
    {
+      "type": "individual",
       "events": [
          {
             "event": "Shooting",
@@ -23,6 +25,7 @@
       ]
    },
    {
+      "type": "individual",
       "events": [
          {
             "event": "Vortex",
@@ -37,6 +40,7 @@
       ]
    },
    {
+      "type": "individual",
       "events": [
          {
             "event": "Boules",
